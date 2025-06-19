@@ -6,7 +6,7 @@ This project focuses on classifying Vietnamese traffic signs using computer visi
 
 ## 📁 Project Structure
 
-CS231-TrafficSign-Recognition/
+CS231-TrafficSign-Recognition/ \\
 ├── main.ipynb # Main training and evaluation notebook
 ├── requirements.txt # List of required Python packages
 ├── .gitignore # Files and folders to ignore in version control
