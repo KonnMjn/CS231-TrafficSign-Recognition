@@ -1,0 +1,11 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Others
+*.log
