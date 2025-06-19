@@ -59,7 +59,7 @@ The project follows a traditional computer vision pipeline with classical machin
 
 ### 1. Data Preparation
 
-- Original dataset: [Vietnam Traffic Sign Detection (Kaggle)](https://www.kaggle.com/datasets/phucer/vietnam-traffic-sign-detection)
+- Original dataset: [Vietnam Traffic Sign Detection (Kaggle)](https://www.kaggle.com/datasets/lvnduy/street-traffic-signs-in-vietnam-coco/data)
 - Additional images were labeled using Roboflow and stored in `Additional-Data/`.
 - All annotations are in COCO format (`.json`), loaded and parsed using `pycocotools`.
 
