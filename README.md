@@ -42,7 +42,7 @@ CS231-TrafficSign-Recognition/
 
 ## 📦 Dataset
 
-We used the publicly available [Vietnam Traffic Sign Detection Dataset from Kaggle](https://www.kaggle.com/datasets/lvnduy/street-traffic-signs-in-vietnam-coco/data) as the base dataset.
+We used the publicly available [Street Traffic Signs in Vietnam-Coco](https://www.kaggle.com/datasets/lvnduy/street-traffic-signs-in-vietnam-coco/data) as the base dataset.
 
 However, the original annotations were **incomplete** for our use case, so we manually:
 
@@ -59,7 +59,7 @@ The project follows a traditional computer vision pipeline with classical machin
 
 ### 1. Data Preparation
 
-- Original dataset: [Vietnam Traffic Sign Detection (Kaggle)](https://www.kaggle.com/datasets/lvnduy/street-traffic-signs-in-vietnam-coco/data)
+- Original dataset: [Street Traffic Signs in Vietnam-Coco](https://www.kaggle.com/datasets/lvnduy/street-traffic-signs-in-vietnam-coco/data)
 - Additional images were labeled using Roboflow and stored in `Additional-Data/`.
 - All annotations are in COCO format (`.json`), loaded and parsed using `pycocotools`.
 
