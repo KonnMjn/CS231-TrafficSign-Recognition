@@ -28,7 +28,7 @@ CS231-TrafficSign-Recognition/
 │ ├── train/
 │ │ ├── *.jpg
 │ │ └── final_annotations.coco.json
-│ ├── dev/
+│ ├── valid/
 │ │ ├── *.jpg
 │ │ └── final_annotations.coco.json
 │ └── test/
@@ -47,7 +47,7 @@ We used the publicly available [Vietnam Traffic Sign Detection Dataset from Kagg
 However, the original annotations were **incomplete** for our use case, so we manually:
 
 - Labeled additional images using [Roboflow](https://roboflow.com/)
-- Modified COCO annotation files for `train`, `dev`, and `test` sets
+- Modified COCO annotation files for `train`, `valid`, and `test` sets
 - Stored the additional data in the `Additional-Data/` directory
 
 > ✅ You should use the annotation files in `Additional-Data/` instead of those from the original Kaggle dataset.
@@ -73,9 +73,9 @@ The project follows a traditional computer vision pipeline with classical machin
 ### 3. Dataset Split
 
 - Training, validation, and test sets are defined via directory structure and matching annotation files:
-  - `train/train_annotations.coco.json`
-  - `dev/dev_annotations.coco.json`
-  - `test/test_annotations.coco.json`
+  - `train/final_annotations.coco.json`
+  - `valid/final_annotations.coco.json`
+  - `test/final_annotations.coco.json`
 
 ### 4. Model Training
 
