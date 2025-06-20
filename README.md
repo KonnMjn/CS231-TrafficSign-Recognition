@@ -123,9 +123,9 @@ Make sure to update paths in main.ipynb if using different folder structures.
 --- 
 
 ## 📄 License
-📌 Code components (if added later) are licensed under the MIT License, allowing reuse, modification, and distribution with attribution and no warranty.
+📌 Code components are licensed under the MIT License, allowing reuse, modification, and distribution with attribution and no warranty.
 
-📎 Non-code contents (e.g., Report, Poster) are shared under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0), allowing reuse with attribution for non-commercial purposes.
+📎 Non-code contents are shared under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0), allowing reuse with attribution for non-commercial purposes.
 
 ---
 
